@@ -1,7 +1,13 @@
-import React from "react";
+import AinestArticle from "../components/articles/AinestArticle";
+import Footer from "../components/home/Footer";
 
 const ArticlesPage = () => {
-  return <div>ArticlesPage</div>;
+  return (
+    <div>
+      <AinestArticle />
+      <Footer />
+    </div>
+  );
 };
 
 export default ArticlesPage;

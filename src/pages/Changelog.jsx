@@ -1,7 +1,13 @@
-import React from "react";
+import Change from "../components/changelog/Change";
+import Footer from "../components/home/Footer";
 
 const Changelog = () => {
-  return <div>Changelog</div>;
+  return (
+    <div>
+      <Change />
+      <Footer />
+    </div>
+  );
 };
 
 export default Changelog;
