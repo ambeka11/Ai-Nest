@@ -20,7 +20,7 @@ const AiNestComponent = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <div className="min-h-screen text-white px-6 py-12 flex flex-col md:flex-row items-center justify-center gap-12">
+    <div className="min-h-screen text-white px-6 py-12 flex flex-col md:flex-row items-center justify-center gap-16">
       {/* Left Section */}
       <div
         className="w-[35%] p-6 rounded-2xl bg-[#0D0D12] border border-gray-700 relative overflow-hidden"
