@@ -22,13 +22,13 @@ export default function HomePeople() {
         <div className="flex flex-wrap justify-between gap-8">
           {/* Card 1 */}
           <div className="flex-1 min-w-[250px]">
-            <div className="inline-flex items-center justify-center text-[#9c63ff] text-4xl p-2 bg-white/5 rounded-xl border border-white/10 mb-6">
+            <div className="inline-flex items-center justify-center text-[#9c63ff] text-3xl p-2 bg-white/5 rounded-xl border border-white/10 mb-6">
               <MdOutlineDesignServices />
             </div>
-            <h1 className="text-2xl font-normal text-white mb-4">
+            <h1 className="text-xl font-normal text-white mb-4">
               For creators
             </h1>
-            <p className="text-white/60 text-lg leading-relaxed">
+            <p className="text-white/60 text-md leading-relaxed">
               Create production-quality visual assets for your projects with
               unprecedented quality, speed, and style-consistency.
             </p>
@@ -36,11 +36,11 @@ export default function HomePeople() {
 
           {/* Card 2 */}
           <div className="flex-1 min-w-[250px]">
-            <div className="inline-flex items-center justify-center text-[#9c63ff] text-4xl p-2 bg-white/5 rounded-xl border border-white/10 mb-6">
+            <div className="inline-flex items-center justify-center text-[#9c63ff] text-3xl p-2 bg-white/5 rounded-xl border border-white/10 mb-6">
               <IoIosPeople />
             </div>
-            <h1 className="text-2xl font-normal text-white mb-4">For teams</h1>
-            <p className="text-white/60 text-lg leading-relaxed">
+            <h1 className="text-xl font-normal text-white mb-4">For teams</h1>
+            <p className="text-white/60 text-md leading-relaxed">
               Bring your team's best ideas to life at scale, with our intuitive
               AI-first creative suite designed for collaboration.
             </p>
@@ -48,13 +48,13 @@ export default function HomePeople() {
 
           {/* Card 3 */}
           <div className="flex-1 min-w-[250px]">
-            <div className="inline-flex items-center justify-center text-[#9c63ff] text-4xl p-2 bg-white/5 rounded-xl border border-white/10 mb-6">
+            <div className="inline-flex items-center justify-center text-[#9c63ff] text-3xl p-2 bg-white/5 rounded-xl border border-white/10 mb-6">
               <FaCode />
             </div>
-            <h1 className="text-2xl font-normal text-white mb-4">
+            <h1 className="text-xl font-normal text-white mb-4">
               For developers
             </h1>
-            <p className="text-white/60 text-lg leading-relaxed">
+            <p className="text-white/60 text-md leading-relaxed">
               Experience content creation excellence with AiNest's API. With
               unmatched scalability.
             </p>

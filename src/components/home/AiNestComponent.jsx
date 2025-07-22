@@ -67,7 +67,6 @@ const AiNestComponent = () => {
           <span>Traffic</span>
         </div>
 
-        {/* Animated Keyword Rows */}
         <div className="relative h-[120px] overflow-hidden">
           {/* Default*/}
           <div

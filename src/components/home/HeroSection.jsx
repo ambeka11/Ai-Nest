@@ -5,26 +5,33 @@ export default function HeroSection() {
         Our AI generates support at all times.
       </p>
 
-      <h1 className="text-[2rem] sm:text-[3rem] md:text-[3.5rem] font-bold leading-tight text-white">
+      <h1 className="text-[2rem] sm:text-[2rem] md:text-[3.5rem] font-bold leading-tight text-white">
         Smarter Design, Seamless
       </h1>
 
-      <h1 className="text-[2rem] sm:text-[3rem] md:text-[3.5rem] font-bold mt-1 text-transparent bg-clip-text bg-gradient-to-r from-[#8aa9ff] to-[#b18eff]">
+      <h1 className="text-[2rem] sm:text-[2rem] md:text-[3.5rem] font-bold mt-1 text-transparent bg-clip-text bg-gradient-to-r from-[#8aa9ff] to-[#b18eff]">
         Automation
       </h1>
 
-      <p className="text-white/70 max-w-xl mt-2 text-base sm:text-lg">
+      <p className="text-white/70  max-w-xl mt-2 text-base sm:text-md">
         Streamline your creative process effortlessly with AiNest’s intelligent
         design tools.
       </p>
-
       <div className="mt-4 flex items-center gap-6">
-        <button className="bg-gradient-to-r from-[#6A5BFF] to-[#9C63FF] hover:brightness-110 text-white px-6 py-3 rounded-xl text-sm font-semibold shadow-[0_0_20px_#835bff50] transition-all duration-300">
-          Get Started
-        </button>
-        <button className="text-white/80 hover:text-white transition font-medium text-sm">
-          Developer API
-        </button>
+        <a href="/pricing">
+          <button className="bg-gradient-to-r sm:text-md sm:p-3 from-[#6A5BFF] to-[#9C63FF] hover:brightness-110 text-white px-6 py-3 rounded-xl text-sm font-semibold shadow-[0_0_20px_#835bff50] transition-all duration-300">
+            Get Started
+          </button>
+        </a>
+        <a
+          href="https://ainest.framer.website/docs"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="text-white/80 sm:text-md sm:p-3 hover:text-white transition font-medium text-sm">
+            Developer API
+          </button>
+        </a>
       </div>
     </section>
   );

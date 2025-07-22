@@ -32,8 +32,8 @@ export default function HomeSection() {
   }, []);
 
   return (
-    <div className=" flex items-center justify-center p-4 relative z-20">
-      <div className="relative rounded-3xl overflow-hidden max-w-[1440px] w-[68%] h-[530px] bg-[#0f0f0f] shadow-2xl">
+    <div className=" flex items-center justify-center p-4 relative z-20  ">
+      <div className="relative rounded-3xl overflow-hidden max-w-[1440px] w-[68%] h-[530px] bg-[#0f0f0f] shadow-2xl sm:h-[490px] ">
         <div
           id="glow-ring"
           className="absolute -inset-1 z-0 rounded-[30px] bg-gradient-to-r from-[#6a5bff] to-[#9c63ff] blur-3xl opacity-60 animate-pulse"
@@ -91,31 +91,30 @@ export default function HomeSection() {
             </div>
           </aside>
 
-          <main className="flex-1 px-6 py-2 text-white bg-[#121212] flex flex-col gap-3 justify-start">
-            <div className="flex items-center justify-between border-b border-white/10 pb-2">
-              <div className="bg-white/10 px-6 py-1 rounded-full text-sm border border-white/20">
-                https://www.ainest.com/workspace
+          <main className="flex-1 px-6 py-2 text-gray-500 bg-[#121212] flex flex-col gap-3 justify-start">
+            <div className="flex justify-center border-b border-white/10 pb-2">
+              <div className="bg-white/10 px-6 py-1 rounded-md text-sm border border-white/10 text-center">
+                https://www.creationhub.com/workspace
               </div>
-              <div className="w-full"></div>
             </div>
 
             <div className="flex justify-between items-center pb-2">
-              <div className="flex items-center bg-white/5 border border-white/10 rounded-md px-3 py-1 text-sm w-full text-white gap-2">
+              <div className="flex items-center bg-white/5 border border-white/10 rounded-md px-3 py-1 text-sm w-full text-white gap-2 ">
                 <input
                   type="text"
                   placeholder="Type a prompt..."
-                  className="bg-transparent focus:outline-none w-full"
+                  className="bg-transparent focus:outline-none w-full placeholder:text-gray-500 "
                 />
                 <FaSearch className="text-white/50" />
               </div>
             </div>
 
-            <div className="grid grid-cols-5 gap-3">
+            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4 p-2">
               {Array.from({ length: 15 }).map((_, i) => (
                 <img
-                  src="https://plus.unsplash.com/premium_photo-1747504296823-71ded9ee2b15?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   key={i}
-                  className="h-[140px] bg-white/10 rounded-xl shadow-inner backdrop-blur-sm"
+                  src="https://images.peopleimages.com/picture/202211/2544312-beauty-flowers-and-woman-in-studio-for-skincare-makeup-and-product-from-nature-wellness-and-leaf-cosmetics.-portrait-flower-and-girl-model-with-jungle-plant-and-zen-relax-and-peony-aesthetic-fit_400_400.jpg"
+                  className="w-full h-[180px] object-cover rounded-xl shadow-inner backdrop-blur-sm"
                 />
               ))}
             </div>
