@@ -34,7 +34,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-6 left-1/2 transform -translate-x-1/2 z-50 w-[90%] md:w-[70%] bg-[#ffffff0a] backdrop-blur-md border border-[#ffffff14] rounded-2xl px-6 py-2 shadow-[0_0_40px_#ffffff0b]">
       <div className="flex justify-between items-center">
-        {/* Logo and animated Creation Hub text */}
+        {/* Logo  */}
         <div className="flex items-center group  max-w-[220px]">
           <div className="bg-gradient-to-r from-[#6A5BFF] to-[#9C63FF] text-white font-bold px-5 py-2 rounded-full transition duration-300 cursor-pointer shrink-0">
             CH

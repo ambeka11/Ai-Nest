@@ -34,6 +34,7 @@ export default function HomeSection() {
   return (
     <div className=" flex items-center justify-center p-4 relative z-20  ">
       <div className="relative rounded-3xl overflow-hidden max-w-[1440px] w-[68%] h-[530px] bg-[#0f0f0f] shadow-2xl sm:h-[490px] ">
+        {/*  */}
         <div
           id="glow-ring"
           className="absolute -inset-1 z-0 rounded-[30px] bg-gradient-to-r from-[#6a5bff] to-[#9c63ff] blur-3xl opacity-60 animate-pulse"

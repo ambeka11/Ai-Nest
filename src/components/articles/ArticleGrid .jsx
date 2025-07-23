@@ -1,3 +1,5 @@
+import { div } from "framer-motion/client";
+
 const articles = [
   {
     date: "Feb 21, 2024",
@@ -104,7 +106,7 @@ const ArticleGrid = () => {
         {articles.map((article, idx) => (
           <div
             key={idx}
-            className="bg-[#111111] rounded-2xl overflow-hidden shadow-xl border border-[#ffffff14] transition-all duration-300 hover:shadow-[0_0_20px_rgba(255,255,255,0.08)] hover:border-[#ffffff22]"
+            className=" rounded-2xl overflow-hidden shadow-xl  transition-all duration-200 hover:shadow-[0_0_20px_rgba(255,255,255,0.05)] hover:border-[#4234340e] hover:bg-[#4a46461c]"
           >
             <img
               src={article.image}
